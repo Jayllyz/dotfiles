@@ -1,0 +1,18 @@
+set atblanks
+set mouse
+set cutfromcursor
+set softwrap
+set tabsize 4
+set tabstospaces
+include "/usr/share/nano/*.nanorc"
+set speller "aspell -x -c"
+set constantshow
+set linenumbers
+set casesensitive
+set historylog
+set positionlog
+set zap
+set autoindent
+bind ^C copy main # CTRC+C - Copy
+bind ^V paste all # CTRL+V - Past
+bind ^S savefile main # CTRL+S - Save

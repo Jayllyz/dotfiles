@@ -1,0 +1,20 @@
+[user]
+	name = Antony David
+	email = antonydavid945@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = /Users/jayllyz/.gitignore
+	editor = code
+[apply]
+	# Detect whitespace errors when applying a patch
+	whitespace = fix
+[color]
+	ui = true
+[help]
+	autocorrect = 1
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
