@@ -28,10 +28,10 @@ alias top="btop --utf-force"
 alias btop="btop --utf-force"
 alias htop="btop --utf-force"
 # exa
-alias ls='exa -a --icons'                                               # ls
-alias l='exa -lbF --git'                                                # list, size, type, git
-alias ll="exa -1a --icons"                                              # list, 1 per line
-alias lat="exa -lagh --tree --icons"                                    # list with info and tree
+alias ls='eza -a --icons'                                               # ls
+alias l='eza -lbF --git'                                                # list, size, type, git
+alias ll="eza -1a --icons"                                              # list, 1 per line
+alias lat="eza -lagh --tree --icons"                                    # list with info and tree
 # duf
 alias df='duf'                                                          # df
 alias duf='duf -h -a --si'                                              # duf
