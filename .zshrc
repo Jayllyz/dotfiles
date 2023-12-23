@@ -22,6 +22,7 @@ alias batn='batcat --pager "less -RF"'
 alias f='fzf'
 alias ff='fzf -m'
 alias fff='fzf -m --preview "batcat --style=header --color=always --line-range :500 {}"'
+#btop
 alias top="btop --utf-force"
 alias btop="btop --utf-force"
 alias htop="btop --utf-force"
