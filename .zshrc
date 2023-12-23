@@ -2,7 +2,7 @@ export ZSH="${HOME}/.oh-my-zsh"
 
 ZSH_THEME="refined"
 
-zstyle ':omz:update' mode auto      # update automatically without asking
+zstyle ':omz:update' mode auto # update automatically without asking
 
 plugins=(git sudo docker npm vscode zsh-autosuggestions zsh-syntax-highlighting)
 
@@ -28,13 +28,13 @@ alias top="btop --utf-force"
 alias btop="btop --utf-force"
 alias htop="btop --utf-force"
 # exa
-alias ls='eza -a --icons'                                               # ls
-alias l='eza -lbF --git'                                                # list, size, type, git
-alias ll="eza -1a --icons"                                              # list, 1 per line
-alias lat="eza -lagh --tree --icons"                                    # list with info and tree
+alias ls='eza -a --icons'            # ls
+alias l='eza -lbF --git'             # list, size, type, git
+alias ll="eza -1a --icons"           # list, 1 per line
+alias lat="eza -lagh --tree --icons" # list with info and tree
 # duf
-alias df='duf'                                                          # df
-alias duf='duf -h -a --si'                                              # duf
+alias df='duf'             # df
+alias duf='duf -h -a --si' # duf
 # cd
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -51,8 +51,8 @@ alias ga='git add .'
 
 # nvm
 export NVM_DIR="${HOME}/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"                                       # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
 
 # pyenv
 export PYENV_ROOT="${HOME}/.pyenv"
@@ -62,6 +62,6 @@ if command -v pyenv 1>/dev/null 2>&1; then
   eval "$(pyenv init -)"
 fi
 
-if [ -f $(brew --prefix)/etc/brew-wrap ];then
+if [ -f $(brew --prefix)/etc/brew-wrap ]; then
   source $(brew --prefix)/etc/brew-wrap
 fi
