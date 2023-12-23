@@ -15,9 +15,10 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 # bat
-alias cat='batcat --style="header" --paging=never'
-alias catn='batcat --pager "less -RF"'
-alias batn='batcat --pager "less -RF"'
+# use batcat if bat not found
+alias cat='bat --style="header" --paging=never'
+alias catn='bat --pager "less -RF"'
+alias batn='bat --pager "less -RF"'
 # fzf
 alias f='fzf'
 alias ff='fzf -m'
