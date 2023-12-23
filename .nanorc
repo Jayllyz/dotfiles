@@ -4,7 +4,6 @@ set cutfromcursor
 set softwrap
 set tabsize 4
 set tabstospaces
-include "/usr/share/nano/*.nanorc"
 set speller "aspell -x -c"
 set constantshow
 set linenumbers
@@ -16,3 +15,4 @@ set autoindent
 bind ^C copy main # CTRC+C - Copy
 bind ^V paste all # CTRL+V - Past
 bind ^S savefile main # CTRL+S - Save
+include "/opt/homebrew/share/nanorc/*.nanorc"

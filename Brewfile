@@ -20,6 +20,8 @@ brew "shellcheck"
 brew "ffmpeg"
 brew "webp"
 brew "duf"
+brew "nano"
+brew "nanorc"
 
 tap "homebrew/cask"
 cask "alt-tab"
