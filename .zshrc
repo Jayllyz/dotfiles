@@ -58,6 +58,7 @@ alias zshrc='nano ~/.zshrc'
 alias gs='git status'
 alias ga='git add .'
 alias bc='better-commits'
+alias bb='better-branch'
 
 # wheater
 alias wheater='curl wttr.in'
