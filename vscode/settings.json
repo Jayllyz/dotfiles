@@ -1,0 +1,131 @@
+{
+    // General Settings
+    "json.schemas": [],
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Selene Theme",
+    "editor.inlineSuggest.enabled": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.renderWhitespace": "all",
+    "workbench.tree.renderIndentGuides": "always",
+    "explorer.compactFolders": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "onFocusChange",
+  
+    // GitHub Copilot
+    "github.copilot.enable": {
+      "*": true
+    },
+  
+    // Code Actions on Save
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+  
+    // Prettier Settings
+    "prettier.resolveGlobalModules": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleQuote": true,
+    "prettier.printWidth": 120,
+    "prettier.configPath": ".prettierrc",
+  
+    // Font Settings
+    "editor.fontFamily": "Monospace Argon",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "330",
+  
+    // Git Settings
+    "git.ignoreMissingGitWarning": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+    "git.mergeEditor": true,
+  
+    // File and Format Settings
+    "workbench.editorAssociations": { "*.bin": "default" },
+    "editor.formatOnSave": true,
+    "cmake.configureOnOpen": false,
+    "files.eol": "\n",
+    "C_Cpp.formatting": "clangFormat",
+    "eslint.format.enable": true,
+  
+    // Language-specific Settings
+    "[python]": {
+      "editor.formatOnType": true,
+      "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "[shellscript]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[prisma]": {
+      "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "[rust]": {
+      "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    },
+    "[dockerfile]": {
+      "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "[c]": {
+      "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[elm]": {
+      "editor.defaultFormatter": "elmTooling.elm-ls-vscode"
+    },
+    "[dotenv]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[markdown]": {
+      "editor.unicodeHighlight.invisibleCharacters": true,
+      "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[plaintext]": {
+      "editor.unicodeHighlight.invisibleCharacters": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "markdown.validate.enabled": true,
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
+  
+    // Terminal Settings
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontWeight": "330",
+    "terminal.integrated.letterSpacing": 0,
+  
+    // Debug Settings
+    "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  
+    // Shell Format Languages
+    "shellformat.effectLanguages": [
+      "shellscript",
+      "dockerfile",
+      "dotenv",
+      "hosts",
+      "jvmoptions",
+      "ignore",
+      "gitignore",
+      "properties",
+      "spring-boot-properties",
+      "azcli",
+      "bats"
+    ],
+  
+    // Remote SSH Settings
+    "remote.SSH.defaultForwardedPorts": [
+      {
+        "remotePort": 22,
+        "sftpSudo": true
+      }
+    ]
+  }
+  
