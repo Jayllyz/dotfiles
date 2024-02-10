@@ -6,6 +6,7 @@
 [core]
 	excludesfile = /Users/jayllyz/.gitignore
 	editor = code
+	autocrlf = input
 [apply]
 	# Detect whitespace errors when applying a patch
 	whitespace = fix
