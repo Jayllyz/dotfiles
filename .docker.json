@@ -1,0 +1,3 @@
+{
+  "psFormat": "table {{printf \"%.20s\" .Names}}\t{{.Image}}\t{{.Ports}}\t{{.ID}}\t{{printf \"%.15s\" .Status}}"
+}
