@@ -1,6 +1,6 @@
 export ZSH="${HOME}/.oh-my-zsh"
 
-ZSH_THEME="refined"
+ZSH_THEME=""
 
 zstyle ':omz:update' mode auto # update automatically without asking
 
@@ -79,3 +79,4 @@ fi
 if [[ -f $(brew --prefix || true)/etc/brew-wrap ]]; then
   source "$(brew --prefix || true)/etc/brew-wrap"
 fi
+eval "$(starship init zsh)"

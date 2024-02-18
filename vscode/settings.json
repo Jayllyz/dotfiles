@@ -101,7 +101,7 @@
 
   // Terminal Settings
   "terminal.integrated.fontSize": 12,
-  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.fontFamily": "CodeNewRoman Nerd Font",
   "terminal.integrated.fontWeight": "330",
   "terminal.integrated.letterSpacing": 0,
 
