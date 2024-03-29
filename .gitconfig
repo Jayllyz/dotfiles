@@ -11,7 +11,11 @@
 	# Detect whitespace errors when applying a patch
 	whitespace = fix
 [color]
-	ui = true
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	ui = auto
 [help]
 	autocorrect = 1
 [filter "lfs"]
