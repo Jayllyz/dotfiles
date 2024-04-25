@@ -23,16 +23,9 @@
 
   // Code Actions on Save
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "explicit"
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
   },
-
-  // Prettier Settings
-  "prettier.resolveGlobalModules": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.singleQuote": true,
-  "prettier.printWidth": 100,
-  "prettier.configPath": ".prettierrc",
 
   // Font Settings
   "editor.fontFamily": "Monospace Argon",
@@ -48,15 +41,13 @@
 
   // File and Format Settings
   "workbench.editorAssociations": { "*.bin": "default" },
-  "cmake.configureOnOpen": false,
   "files.eol": "\n",
   "C_Cpp.formatting": "clangFormat",
-  "eslint.format.enable": true,
 
   // Language-specific Settings
   "[python]": {
     "editor.formatOnType": true,
-    "editor.defaultFormatter": "ms-python.autopep8"
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
@@ -73,9 +64,6 @@
   "[c]": {
     "editor.defaultFormatter": "xaver.clang-format"
   },
-  "[elm]": {
-    "editor.defaultFormatter": "elmTooling.elm-ls-vscode"
-  },
   "[dotenv]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
@@ -84,10 +72,10 @@
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "[plaintext]": {
     "editor.unicodeHighlight.invisibleCharacters": true
