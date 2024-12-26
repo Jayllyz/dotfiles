@@ -1,0 +1,32 @@
+font-family = "JetBrainsMono Nerd Font"
+font-size = 15
+auto-update = download
+shell-integration = zsh
+cursor-style-blink = true
+window-decoration = true
+bold-is-bright = true
+keybind = ctrl+d=new_split:right
+
+# Basic configuration
+background = "#000000"
+foreground = "#b3b3b3"
+
+# Normal colors
+palette = 0=#000000
+palette = 1=#cc5555
+palette = 2=#55cc55
+palette = 3=#cccc55
+palette = 4=#5555cc
+palette = 5=#cc55cc
+palette = 6=#55cccc
+palette = 7=#cccccc
+
+# Bright colors
+palette = 8=#555555
+palette = 9=#ff5555
+palette = 10=#55ff55
+palette = 11=#ffff55
+palette = 12=#5555ff
+palette = 13=#ff55ff
+palette = 14=#55ffff
+palette = 15=#ffffff
