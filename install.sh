@@ -45,4 +45,14 @@ else
     echo "ya not found, skipping yazi package install"
 fi
 
+# Check and install VSCode config
+VSCODE_DIR="${HOME}/Library/Application Support/Code/User"
+mkdir -p "${VSCODE_DIR}"
+for f in settings.json keybindings.json; do
+    if [[ -f "${SOURCE_DIR}/.vscode/${f}" ]]; then
+        cp "${SOURCE_DIR}/.vscode/${f}" "${VSCODE_DIR}/${f}"
+        echo "Copied vscode/${f}"
+    fi
+done
+
 echo "Installation complete!"

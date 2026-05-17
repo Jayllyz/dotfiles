@@ -1,0 +1,15 @@
+// Placer vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
+[
+    {
+        "key": "cmd+[Comma]",
+        "command": "save-as-root.saveFile"
+    },
+    {
+        "key": "shift+enter",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "\\\r\n"
+        },
+        "when": "terminalFocus"
+    }
+]
