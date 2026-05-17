@@ -29,4 +29,20 @@ else
     echo "No .zshrc found in the source directory"
 fi
 
+# Check and install yazi config
+YAZI_CONFIG_DIR="${HOME}/.config/yazi"
+mkdir -p "${YAZI_CONFIG_DIR}"
+for f in theme.toml yazi.toml package.toml; do
+    if [[ -f "${SOURCE_DIR}/.config/yazi/${f}" ]]; then
+        cp "${SOURCE_DIR}/.config/yazi/${f}" "${YAZI_CONFIG_DIR}/${f}"
+        echo "Copied yazi/${f}"
+    fi
+done
+if command -v ya &>/dev/null; then
+    ya pkg install --path "${YAZI_CONFIG_DIR}"
+    echo "Installed yazi packages"
+else
+    echo "ya not found, skipping yazi package install"
+fi
+
 echo "Installation complete!"
